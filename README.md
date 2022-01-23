@@ -16,17 +16,17 @@ These are the requirements for this project. You can view the live demo on [Code
 
 - [x] ~~**User Story #5:** Inside the form element, I am required to enter an email in a field with id="email".~~
 
-- [ ] **User Story #6:** If I enter an email that is not formatted correctly, I will see an HTML5 validation error.
+- [x] ~~**User Story #6:** If I enter an email that is not formatted correctly, I will see an HTML5 validation error.~~
 
-- [ ] **User Story #7:** Inside the form, I can enter a number in a field with id="number".
+- [x] ~~**User Story #7:** Inside the form, I can enter a number in a field with id="number".~~
 
-- [ ] **User Story #8:** If I enter non-numbers in the number input, I will see an HTML5 validation error.
+- [x] ~~**User Story #8:** If I enter non-numbers in the number input, I will see an HTML5 validation error.~~
 
 - [ ] **User Story #9:** If I enter numbers outside the range of the number input, which are defined by the min and max attributes, I will see an HTML5 validation error.
 
-- [ ] **User Story #10:** For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label".
+- [x] ~~**User Story #10:** For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label".~~
 
-- [ ] **User Story #11:** For the name, email, and number input fields, I can see placeholder text that gives me a description or instructions for each field.
+- [x] ~~**User Story #11:** For the name, email, and number input fields, I can see placeholder text that gives me a description or instructions for each field.~~
 
 - [ ] **User Story #12:** Inside the form element, I can select an option from a dropdown that has a corresponding id="dropdown".
 
@@ -36,4 +36,4 @@ These are the requirements for this project. You can view the live demo on [Code
 
 - [ ] **User Story #15:** Inside the form element, I am presented with a textarea at the end for additional comments.
 
-- [ ] **User Story #16:** Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
+- [x] ~~**User Story #16:** Inside the form element, I am presented with a button with id="submit" to submit all my inputs.~~

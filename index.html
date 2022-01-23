@@ -4,31 +4,104 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey Form</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
   </head>
+
   <body>
-    <h1 id="title">freeCodeCamp</h1>
-    <h2>Survey Form</h2>
-    <p id="description">
-      The second project in the freeCodeCamp curriculum. This is a responsive
-      design project. I am creating a survey form page with client-side
-      validation only with HTML5 and CSS3.
-    </p>
+    <div class="container">
+      <div class="row justify-content-center">
+        <h1 id="title">freeCodeCamp</h1>
+        <div class="row justify-content-center">
+          <h2>Survey Form</h2>
+          <p id="description">
+            The second project in the freeCodeCamp curriculum. This is a
+            responsive design project. I am creating a survey form page with
+            client-side validation only with HTML5 and CSS3.
+          </p>
+        </div>
+      </div>
 
-    <form id="survey-form">
-      <label for="email">Email:</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        placeholder="email"
-        required
-      />
+      <form>
+        <label for="email" id="email-label">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+        /><br />
 
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" placeholder="name" />
+        <label for="name" id="name-label">Name</label><br />
+        <input type="text" id="name" name="name" placeholder="Name" /><br />
 
-      <label for="Number">Number:</label>
-      <input type="number" id="number" name="number" placeholder="number" />
-    </form>
+        <label for="Number" id="number-label">Number</label><br />
+        <input
+          type="number"
+          id="number"
+          name="number"
+          placeholder="Number"
+          min="0400000000"
+          max="0499999999"
+        /><br />
+      </form>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="exampleRadios1"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="exampleRadios1">
+              Default radio
+            </label>
+          </div>
+
+          
+
+          <textarea name="message" rows="10">
+                    Additional comments.
+                        </textarea
+          ><br />
+
+          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <option selected>Choose...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+
+          <label for="question" id="question-label"
+            >Do you like freeCodeCamp?</label
+          ><br />
+          
+
+          <input type="submit" value="Submit" class="btn btn-primary" />
+        </div>
+      </form>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
