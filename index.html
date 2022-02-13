@@ -50,27 +50,15 @@
         /><br />
       </form>
 
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="radio"
-              name="exampleRadios"
-              id="exampleRadios1"
-              value="option1"
-              checked
-            />
-            <label class="form-check-label" for="exampleRadios1">
-              Default radio
-            </label>
-          </div>
-
           
 
           <textarea name="message" rows="10">
-                    Additional comments.
+          Additional comments.
                         </textarea
           ><br />
 
+
+          <!-- Dropdown -->
           <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
             <option selected>Choose...</option>
             <option value="1">One</option>
@@ -78,10 +66,38 @@
             <option value="3">Three</option>
           </select>
 
-          <label for="question" id="question-label"
-            >Do you like freeCodeCamp?</label
-          ><br />
-          
+
+          <!-- Radio Buttons -->
+          <div class="form-check">
+            <label for="question" id="question-label"
+              >Do you like freeCodeCamp?</label
+            ><br />
+            
+            <input
+              class="form-check-input"
+              type="radio"
+              name="feedbackradio"
+              id="feedbackradio"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="exampleRadios1">
+              Yes!
+            </label>
+          </div>
+          <div class="form-check">  
+            <input
+              class="form-check-input"
+              type="radio"
+              name="feedbackradio"
+              id="feedbackradio"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="exampleRadios1">
+              Yes! in red.
+            </label>
+          </div>
 
           <input type="submit" value="Submit" class="btn btn-primary" />
         </div>
